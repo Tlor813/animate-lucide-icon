@@ -1,11 +1,9 @@
 /* Diagnostic Styling */
-* {
-  outline: 2px dotted gray;
-} 
+*
 
 /* temp background color */
 body {
-    background: lightgray;
+    background: yellow;
 }
   
 /* vertical and horizontal centering */
@@ -13,4 +11,31 @@ body {
   display: grid;
   place-content: center;
   height: 100vh;
+}
+
+svg:hover{
+  fill: blue;
+  stroke: lightblue;
+  scale: 4;
+  
+
+  animation: fadeIn 1s;
+  
+}
+
+@keyframes fadeIn{
+  
+  0%{
+    opacity: 0;
+  }
+  
+  
+  50%{
+    rotate: 360deg;
+  }
+  
+  100%{
+    opacity: 1;
+  }
+  
 }
