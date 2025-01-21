@@ -20,7 +20,7 @@ svg:hover{
   
 
   animation: fadeIn 1s;
-  
+  transition: 1s;
 }
 
 @keyframes fadeIn{
